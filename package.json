@@ -1,0 +1,19 @@
+{
+  "name": "comics",
+  "version": "1.0.0",
+  "description": "Project Web-Comics",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "author": "Emir",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.2"
+  }
+}
